@@ -1,8 +1,0 @@
-<launch>  
-
-  <include file="$(find my_robot)/launch/my_robot_bringup.launch" />
-  <include file="$(find my_robot)/launch/my_robot_localization.launch" />
-  <include file="$(find my_robot)/launch/my_teb_navigation.launch" />
-  <include file="$(find my_robot)/launch/my_gmapping.launch" />
-
-</launch>
